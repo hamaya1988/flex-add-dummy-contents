@@ -1,0 +1,29 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  background: #F8BBD0;
+}
+
+.item {
+  background: #FFF9C4;
+}
+
+/* flex */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-item-6,
+.flex-item-6-dummy {
+  width: calc(100% / 5 - 1rem);
+  margin-bottom: 1rem;
+}
